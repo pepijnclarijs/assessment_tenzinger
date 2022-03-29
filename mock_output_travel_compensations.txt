@@ -1,0 +1,120 @@
+Month 1
+Employee,Transport,Traveled distance (km/month),Compensation,payment date
+Paul,Car,1350.0,135.0,2022-01-03
+Martin,Bus,144.0,36.0,2022-01-03
+Jeroen,Bike,202.5,202.5,2022-01-03
+Tineke,Bike,54.0,27.0,2022-01-03
+Arnout,Train,517.5,129.38,2022-01-03
+Matthijs,Bike,222.75,222.75,2022-01-03
+Rens,Car,270.0,27.0,2022-01-03
+
+Month 2
+Employee,Transport,Traveled distance (km/month),Compensation,payment date
+Paul,Car,1350.0,135.0,2022-02-07
+Martin,Bus,144.0,36.0,2022-02-07
+Jeroen,Bike,202.5,202.5,2022-02-07
+Tineke,Bike,54.0,27.0,2022-02-07
+Arnout,Train,517.5,129.38,2022-02-07
+Matthijs,Bike,222.75,222.75,2022-02-07
+Rens,Car,270.0,27.0,2022-02-07
+
+Month 3
+Employee,Transport,Traveled distance (km/month),Compensation,payment date
+Paul,Car,1350.0,135.0,2022-03-07
+Martin,Bus,144.0,36.0,2022-03-07
+Jeroen,Bike,202.5,202.5,2022-03-07
+Tineke,Bike,54.0,27.0,2022-03-07
+Arnout,Train,517.5,129.38,2022-03-07
+Matthijs,Bike,222.75,222.75,2022-03-07
+Rens,Car,270.0,27.0,2022-03-07
+
+Month 4
+Employee,Transport,Traveled distance (km/month),Compensation,payment date
+Paul,Car,1350.0,135.0,2022-04-04
+Martin,Bus,144.0,36.0,2022-04-04
+Jeroen,Bike,202.5,202.5,2022-04-04
+Tineke,Bike,54.0,27.0,2022-04-04
+Arnout,Train,517.5,129.38,2022-04-04
+Matthijs,Bike,222.75,222.75,2022-04-04
+Rens,Car,270.0,27.0,2022-04-04
+
+Month 5
+Employee,Transport,Traveled distance (km/month),Compensation,payment date
+Paul,Car,1350.0,135.0,2022-05-02
+Martin,Bus,144.0,36.0,2022-05-02
+Jeroen,Bike,202.5,202.5,2022-05-02
+Tineke,Bike,54.0,27.0,2022-05-02
+Arnout,Train,517.5,129.38,2022-05-02
+Matthijs,Bike,222.75,222.75,2022-05-02
+Rens,Car,270.0,27.0,2022-05-02
+
+Month 6
+Employee,Transport,Traveled distance (km/month),Compensation,payment date
+Paul,Car,1350.0,135.0,2022-06-06
+Martin,Bus,144.0,36.0,2022-06-06
+Jeroen,Bike,202.5,202.5,2022-06-06
+Tineke,Bike,54.0,27.0,2022-06-06
+Arnout,Train,517.5,129.38,2022-06-06
+Matthijs,Bike,222.75,222.75,2022-06-06
+Rens,Car,270.0,27.0,2022-06-06
+
+Month 7
+Employee,Transport,Traveled distance (km/month),Compensation,payment date
+Paul,Car,1350.0,135.0,2022-07-04
+Martin,Bus,144.0,36.0,2022-07-04
+Jeroen,Bike,202.5,202.5,2022-07-04
+Tineke,Bike,54.0,27.0,2022-07-04
+Arnout,Train,517.5,129.38,2022-07-04
+Matthijs,Bike,222.75,222.75,2022-07-04
+Rens,Car,270.0,27.0,2022-07-04
+
+Month 8
+Employee,Transport,Traveled distance (km/month),Compensation,payment date
+Paul,Car,1350.0,135.0,2022-08-01
+Martin,Bus,144.0,36.0,2022-08-01
+Jeroen,Bike,202.5,202.5,2022-08-01
+Tineke,Bike,54.0,27.0,2022-08-01
+Arnout,Train,517.5,129.38,2022-08-01
+Matthijs,Bike,222.75,222.75,2022-08-01
+Rens,Car,270.0,27.0,2022-08-01
+
+Month 9
+Employee,Transport,Traveled distance (km/month),Compensation,payment date
+Paul,Car,1350.0,135.0,2022-09-05
+Martin,Bus,144.0,36.0,2022-09-05
+Jeroen,Bike,202.5,202.5,2022-09-05
+Tineke,Bike,54.0,27.0,2022-09-05
+Arnout,Train,517.5,129.38,2022-09-05
+Matthijs,Bike,222.75,222.75,2022-09-05
+Rens,Car,270.0,27.0,2022-09-05
+
+Month 10
+Employee,Transport,Traveled distance (km/month),Compensation,payment date
+Paul,Car,1350.0,135.0,2022-10-03
+Martin,Bus,144.0,36.0,2022-10-03
+Jeroen,Bike,202.5,202.5,2022-10-03
+Tineke,Bike,54.0,27.0,2022-10-03
+Arnout,Train,517.5,129.38,2022-10-03
+Matthijs,Bike,222.75,222.75,2022-10-03
+Rens,Car,270.0,27.0,2022-10-03
+
+Month 11
+Employee,Transport,Traveled distance (km/month),Compensation,payment date
+Paul,Car,1350.0,135.0,2022-11-07
+Martin,Bus,144.0,36.0,2022-11-07
+Jeroen,Bike,202.5,202.5,2022-11-07
+Tineke,Bike,54.0,27.0,2022-11-07
+Arnout,Train,517.5,129.38,2022-11-07
+Matthijs,Bike,222.75,222.75,2022-11-07
+Rens,Car,270.0,27.0,2022-11-07
+
+Month 12
+Employee,Transport,Traveled distance (km/month),Compensation,payment date
+Paul,Car,1350.0,135.0,2022-12-05
+Martin,Bus,144.0,36.0,2022-12-05
+Jeroen,Bike,202.5,202.5,2022-12-05
+Tineke,Bike,54.0,27.0,2022-12-05
+Arnout,Train,517.5,129.38,2022-12-05
+Matthijs,Bike,222.75,222.75,2022-12-05
+Rens,Car,270.0,27.0,2022-12-05
+

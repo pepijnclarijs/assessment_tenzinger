@@ -1,0 +1,8 @@
+Employee, Transport, Distance (km/one way), Workdays per week
+Paul, Car, 60, 5
+Martin, Bus, 8, 4
+Jeroen, Bike, 9, 5
+Tineke, Bike, 4, 3
+Arnout, Train, 23, 5
+Matthijs, Bike, 11, 4.5
+Rens, Car, 12, 5

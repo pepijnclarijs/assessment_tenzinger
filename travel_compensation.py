@@ -82,9 +82,19 @@ def calc_travel_comp(travel_data_path, save_dir):
                 else:
                     comp_per_km = COMPENSATIONS[transport]
 
+                # Calculate distance and compensations.
                 traveled_distance = distance * num_workdays_pw * NUM_WEEKS_IN_MONTH
                 comp_per_month = round(comp_per_km * distance * num_workdays_pw * NUM_WEEKS_IN_MONTH, 2)
-                pay_date = find_first_monday(date.today().year, month)
+
+                # Find the right pay dates.
+                pay_month = month + 1  # The payout is the first monday of the next month.
+                pay_year = date.today().year
+                if pay_month == 13:
+                    pay_month = 1
+                    pay_year += 1
+                pay_date = find_first_monday(pay_year, pay_month)
+
+                # Write results.
                 csvwriter.writerow([row[0].strip(), transport, traveled_distance, comp_per_month, pay_date])
 
             csvwriter.writerow([])

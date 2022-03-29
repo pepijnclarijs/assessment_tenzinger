@@ -1,3 +1,13 @@
+# This script prompts user for travel data, calculates the compensations per employee per month and writes the
+# conclusions to an output file.
+#
+# Usage:
+#     python3 ./travel_compensation.py
+#
+# Author:
+#     Pepijn Clarijs - 29-03-2022
+
+
 import csv
 import os
 from datetime import timedelta, date
@@ -35,7 +45,8 @@ def calc_travel_comp(travel_data_path, save_dir):
     Args:
         travel_data_path (string): path to CSV file containing travel information: employee, transport,
             distance (km/one way), workdays per week.
-        save_dir (string): The path of the directory in which to save the output csv file.
+        save_dir (string): The path of the directory in which to save the output csv file. This directory must exist
+            already.
     """
 
     # Check if file and destination directory exist.
@@ -58,7 +69,7 @@ def calc_travel_comp(travel_data_path, save_dir):
         # Loop over the input data and calculate the output data for each month.
         for month in range(1, 13):
             csvwriter.writerow([f'Month {month}'])
-            csvwriter.writerow(['Employee', 'Transport', 'Traveled distance (km/month)', 'Compensation',
+            csvwriter.writerow(['Employee', 'Transport', 'Traveled distance (km/month)', 'Compensation (euro\'s/month)',
                                 'payment date'])
             for row in in_data:
                 transport = row[1].strip()
@@ -83,9 +94,12 @@ if __name__ == '__main__':
 
     # Prompt user for travel data and calculate the compensations.
     in_path = input("Please enter the path to the file containing the travel data: ")
-    out_path = os.path.dirname(in_path)
+    out_dir = os.path.dirname(in_path)
     try:
-        calc_travel_comp(in_path, out_path)
+        calc_travel_comp(in_path, out_dir)
+        print(f"Travel compensations calculated successfully :). The result can be found in this directory: {out_dir}")
     except AssertionError as error:
         print(error)
-        print('The travel compensation was not calculated :(')
+        print('The travel compensation was not calculated :(.')
+
+
